@@ -1,6 +1,4 @@
-node_modules
-<<<<<<< HEAD
-.sass-cache
-=======
-bower_components
->>>>>>> master
+// Different colors on hover ABOUT(FF6600), DOWNLOAD(0000CD), CONTACT(42DCA3)
+// To the beginning only if not in the beginning
+// Add another page with something so my skills page is lucid. 
+
