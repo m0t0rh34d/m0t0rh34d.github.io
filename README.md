@@ -1,3 +1,22 @@
+// Different colors on hover ABOUT(FF6600), DOWNLOAD(0000CD), CONTACT(42DCA3)
+// To the beginning only if not in the beginning
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # [Start Bootstrap - Grayscale](https://startbootstrap.com/template-overviews/grayscale/)
 
 [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).

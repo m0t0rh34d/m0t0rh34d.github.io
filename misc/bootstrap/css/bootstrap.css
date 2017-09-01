@@ -3365,8 +3365,8 @@ tbody.collapse.show {
   }
   .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: .5rem;
-    padding-left: .5rem;
-  }
+     padding-left: .5rem;
+     }
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
     -ms-flex-wrap: nowrap;
