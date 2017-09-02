@@ -257,7 +257,8 @@ font-family   : Gotham;
 margin-left   : -758px;
 }
 
-.skills {
+@media (min-width              : 768px){
+  .skills {
 text-align    : left;
 font-family   : Helvetica;
 margin-left   : -154px;
