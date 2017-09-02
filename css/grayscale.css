@@ -177,11 +177,11 @@ border-radius                  : 0; }
 
 .btn-default {
 color                          : #42DCA3;
-border                         : 1px solid #42DCA3;
-background-color               : transparent; }
+background-color               : transparent;
+margin-top: 20px; }
 .btn-default                   : focus, .btn-default:hover {
 color                          : black;
-border                         : 1px solid #42DCA3;
+border                         : 3px inset #42DCA3;
 outline                        : none;
 background-color               : #42DCA3; }
 
