@@ -1,9 +1,4 @@
 // Different colors on hover ABOUT(FF6600), DOWNLOAD(0000CD), CONTACT(42DCA3)
-// To the beginning only if not in the beginning
-// Add another page with something so my skills page is lucid. 
-
-if class="navbar-brand js-scroll-trigger"  if (#href != top) { text-color = transparent}
-
-if (standby > 3000) { mainNav disappear} 
-
-whale not right onto text
+// Whale not making reading hard
+✓ To the beginning only if not in the beginning
+✓ Add another page with something so my skills page is lucid. 
