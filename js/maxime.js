@@ -75,8 +75,21 @@
     });
     
 
+    $(".sklls")
+    .mouseover (function() {
+      $( this ).css("color", "#7FFFD4"); 
+        })
+    .mouseout (function() {
+      $( this ).css("color", "white");
+    });
 
-
+    $(".cntcts")
+    .mouseover (function() {
+      $( this ).css("color", "#DE3163"); 
+        })
+    .mouseout (function() {
+      $( this ).css("color", "white");
+    });
 
 
 
