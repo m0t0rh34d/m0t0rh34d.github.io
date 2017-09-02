@@ -252,17 +252,18 @@ font-size     : 20px;
 font-family   : Helvetica;
 }
 
+@media (min-width              : 768px){
 .head-skills {
 font-family   : Gotham;
 margin-left   : -758px;
-}
+}}
 
 @media (min-width              : 768px){
   .skills {
 text-align    : left;
 font-family   : Helvetica;
 margin-left   : -154px;
-}
+}}
 
 
 
