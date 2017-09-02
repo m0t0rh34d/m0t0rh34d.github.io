@@ -65,7 +65,15 @@
   });
 
 
-
+  // Colorize WHO, SKILLS, CONTACTS
+    $(".who")
+    .mouseover (function() {
+      $( this ).css("color", "#D3D3D3"); 
+        })
+    .mouseout (function() {
+      $( this ).css("color", "white");
+    });
+    
 
 
 
