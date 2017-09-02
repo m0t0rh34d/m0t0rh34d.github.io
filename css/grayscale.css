@@ -227,7 +227,14 @@ body {
 
 
 
+.head-who {
+  font-family: Gotham;
+}
 
+.w {
+  font-size: 20px;
+  font-family: Helvetica;
+}
 
 .head-skills {
   padding-right: 550px;
