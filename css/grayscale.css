@@ -118,7 +118,7 @@ height                         : 100%;
 padding                        : 0; }
       .masthead .intro-body .brand-heading {
 font-family                    : Gotham;
-font-size                      : 54px; }
+font-size                      : 44px; }
       .masthead .intro-body .intro-text {
 font-size                      : 23px;
 font-family                    : Helvetica; } }
@@ -225,6 +225,18 @@ body {
 -webkit-tap-highlight-color    : rgba(255, 255, 255, 0.2); }
 
 
+
+
+
+.Maxime {
+  font-family: Absinthe;
+  font-weight: 300;
+  color: aquamarine;
+  font-size: 64px;
+
+}
+
+
 .visit {
   margin-left: -732px;
   margin-top: -8px;
@@ -264,6 +276,11 @@ font-family                    : Gotham;
 @font-face {
 src                            : url(../misc/fonts/Corona.otf);
 font-family                    : Corona;
+}
+
+@font-face {
+src                            : url(../misc/fonts/Absinthe.otf);
+font-family                    : Absinthe;
 }
 
 
