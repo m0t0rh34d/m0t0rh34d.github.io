@@ -229,11 +229,8 @@ body {
 
 
 .Maxime {
-  font-family: Absinthe;
-  font-weight: 300;
-  color: aquamarine;
-  font-size: 64px;
-
+  margin-top: -16px;
+margin-left: -12px;
 }
 
 
@@ -267,6 +264,8 @@ margin-left   : -758px;
 text-align    : left;
 font-family   : Helvetica;
 margin-left   : -154px;
+margin-top: -20px;
+margin-bottom: 84px;
 }}
 
 
