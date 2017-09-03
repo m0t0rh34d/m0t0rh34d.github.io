@@ -137,7 +137,7 @@ border                         : 2px solid white;
 border-radius                  : 100% !important;
 background                     : transparent; }
 .btn-circle                    : focus, .btn-circle:hover {
-color                          : white;
+color                          : aquamarine;
 outline                        : none;
 background                     : rgba(255, 255, 255, 0.1); }
 
@@ -269,6 +269,10 @@ font-family   : Helvetica;
 margin-left   : -154px;
 }}
 
+
+a:hover {
+  color: aquamarine; 
+}
 
 
 /* fonts inclusion */

@@ -77,7 +77,7 @@
 
     $(".sklls")
     .mouseover (function() {
-      $( this ).css("color", "#7FFFD4"); 
+      $( this ).css("color", "aquamarine"); 
         })
     .mouseout (function() {
       $( this ).css("color", "white");
