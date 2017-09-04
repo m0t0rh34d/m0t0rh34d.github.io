@@ -251,6 +251,7 @@ font-family   : Gotham;
 font-size     : 20px;
 font-family   : 'Roboto', sans-serif, Helvetica;
 font-weight:   300; 
+text-align: -webkit-auto;
 }
 
 @media (min-width              : 768px){
