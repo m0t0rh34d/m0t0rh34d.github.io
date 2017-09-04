@@ -111,11 +111,26 @@
       });
 
     
+    $(".visit")
+    .click (function() {
+      $(".visit").addClass("animated tada");
+    });
+
+    $(".twt")
+    .click (function() {
+      $(".twt").addClass("animated rubberBand");
+    });
 
 
+    $(".gth")
+    .click (function() {
+      $(".gth").addClass("animated rubberBand");
+    });
 
-
-
+    $(".goo")
+    .click (function() {
+      $(".goo").addClass("animated rubberBand");
+    });
 
 
 
