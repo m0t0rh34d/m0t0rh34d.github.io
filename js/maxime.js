@@ -65,13 +65,16 @@
   });
 
 
-  // Colorize WHO, SKILLS, CONTACTS
+  // Colorize WHO, SKILLS, CONTACTS 
     $(".who")
     .mouseover (function() {
       $( this ).css("color", "#7FFFD4"); 
         })
     .mouseout (function() {
       $( this ).css("color", "white");
+        })
+    .click (function() {
+      $(this).addClass("animated zoomIn")
     });
     
 
@@ -81,7 +84,12 @@
         })
     .mouseout (function() {
       $( this ).css("color", "white");
+    })
+    .click (function() {
+      $(this).addClass("animated zoomIn")
     });
+
+
 
     $(".cntcts")
     .mouseover (function() {
@@ -91,16 +99,16 @@
       $( this ).css("color", "white");
     })
     .click (function() {
-      $(this).addClass("animated bounce")
+      $(this).addClass("animated zoomIn")
     });
 
 
-    $('.cntcts').on(
-      'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
-      function () {
-        $(this).removeClass("animated bounce");
-      }
-      );
+    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+
+    $('.cntcts, .sklls, .who')
+    .on (animationEnd, function () {
+        $(this).removeClass("animated zoomIn");
+      });
 
     
 
