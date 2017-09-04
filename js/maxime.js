@@ -92,10 +92,17 @@
     })
     .click (function() {
       $(this).addClass("animated bounce")
-
-    $('.cntcts').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', removeClass("animated bounce"));
-
     });
+
+
+    $('.cntcts').on(
+      'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+      function () {
+        $(this).removeClass("animated bounce");
+      }
+      );
+
+    
 
 
 
