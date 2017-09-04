@@ -89,8 +89,13 @@
         })
     .mouseout (function() {
       $( this ).css("color", "white");
-    });
+    })
+    .click (function() {
+      $(this).addClass("animated bounce")
 
+    $('.cntcts').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', removeClass("animated bounce"));
+
+    });
 
 
 
