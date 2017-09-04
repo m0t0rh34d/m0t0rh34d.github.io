@@ -68,7 +68,7 @@
   // Colorize WHO, SKILLS, CONTACTS
     $(".who")
     .mouseover (function() {
-      $( this ).css("color", "#D3D3D3"); 
+      $( this ).css("color", "#7FFFD4"); 
         })
     .mouseout (function() {
       $( this ).css("color", "white");
@@ -77,7 +77,7 @@
 
     $(".sklls")
     .mouseover (function() {
-      $( this ).css("color", "aquamarine"); 
+      $( this ).css("color", "#FF2052"); 
         })
     .mouseout (function() {
       $( this ).css("color", "white");
@@ -85,7 +85,7 @@
 
     $(".cntcts")
     .mouseover (function() {
-      $( this ).css("color", "#DE3163"); 
+      $( this ).css("color", "#C0C0C0"); 
         })
     .mouseout (function() {
       $( this ).css("color", "white");
