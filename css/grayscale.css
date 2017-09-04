@@ -254,6 +254,20 @@ font-weight:   300;
 text-align: -webkit-auto;
 }
 
+
+.wsc {
+  margin-right : -97px !important;
+}
+
+.arrow {
+  margin-left:  -65px;
+}
+
+
+
+
+
+
 @media (min-width              : 768px){
 .head-skills {
 font-family   : Gotham;
