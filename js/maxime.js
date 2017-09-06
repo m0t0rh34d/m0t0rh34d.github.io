@@ -74,7 +74,7 @@
       $( this ).css("color", "white");
         })
     .click (function() {
-      $(this).addClass("animated zoomIn")
+      $(this).addClass("animated pulse")
     });
     
 
@@ -86,7 +86,7 @@
       $( this ).css("color", "white");
     })
     .click (function() {
-      $(this).addClass("animated zoomIn")
+      $(this).addClass("animated pulse")
     });
 
 
@@ -99,7 +99,7 @@
       $( this ).css("color", "white");
     })
     .click (function() {
-      $(this).addClass("animated zoomIn")
+      $(this).addClass("animated pulse")
     });
 
 
@@ -107,7 +107,7 @@
 
     $('.cntcts, .sklls, .who')
     .on (animationEnd, function () {
-        $(this).removeClass("animated zoomIn");
+        $(this).removeClass("animated pulse");
       });
 
     
