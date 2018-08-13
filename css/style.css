@@ -20,7 +20,7 @@ h5,
 h6 {
 font-family                    : Helvetica, Arial, sans-serif;
 font-weight                    : 700;
-margin                         : 20px 0 35px;
+margin                         : -70px 50px 15px 35px;
 letter-spacing                 : 1px;
 text-transform                 : uppercase; }
 
@@ -118,28 +118,14 @@ height                         : 100%;
 padding                        : 0; }
       .masthead .intro-body .brand-heading {
 font-family                    : Gotham;
-font-size                      : 44px; }
+font-size                      : 48px; }
       .masthead .intro-body .intro-text {
 font-size                      : 23px;
-font-family                    : 'Roboto', sans-serif, Helvetica; } }
-
-.btn-circle {
-font-size                      : 26px;
-width                          : 55px;
-height                         : 55px;
-margin-top                     : 15px;
-line-height                    : 38px;
--webkit-transition             : background 0.3s ease-in-out;
--moz-transition                : background 0.3s ease-in-out;
-transition                     : background 0.3s ease-in-out;
-color                          : white;
-border                         : 2px solid white;
-border-radius                  : 100% !important;
-background                     : transparent; }
-.btn-circle                    : focus, .btn-circle:hover {
-color                          : aquamarine;
-outline                        : none;
-background                     : rgba(255, 255, 255, 0.1); }
+font-family                    : 'Roboto', sans-serif, Helvetica; 
+font-style                     : italic;
+font-weight: 100;
+  } 
+}
 
 .content-section {
 padding-top                    : 150px;
